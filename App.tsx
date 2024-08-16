@@ -7,7 +7,9 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import Welcome from './screens/Welcome';
 import Login from './screens/Login';
 import Dashboard from './screens/Dashboard';
-import {Text} from 'react-native';
+import Employees from './screens/Employees';
+import TimingData from './screens/TimingData';
+import Projects from './screens/Projects';
 
 const Stack = createNativeStackNavigator();
 const App = () => {
@@ -30,18 +32,36 @@ const App = () => {
 
             <Stack.Screen
               options={{
-                headerShown: true,
-                headerTitle: () => (
-                  <Text
-                    style={tw`text-purple-600 text-lg font-medium tracking-wide`}>
-                    Dashboard
-                  </Text>
-                ),
-                headerBackTitleVisible: false,
-                headerBackButtonMenuEnabled: false,
+                headerShown: false,
               }}
-              name="dashboard"
+              name="Dashboard"
               component={Dashboard}
+            />
+
+            {/* //todo details screens */}
+            <Stack.Screen
+              options={{
+                headerShown: true,
+                headerBackTitle: 'Back',
+              }}
+              name="Employees"
+              component={Employees}
+            />
+            <Stack.Screen
+              options={{
+                headerShown: true,
+                headerBackTitle: 'Back',
+              }}
+              name="TimingData"
+              component={TimingData}
+            />
+            <Stack.Screen
+              options={{
+                headerShown: true,
+                headerBackTitle: 'Back',
+              }}
+              name="Projects"
+              component={Projects}
             />
           </Stack.Navigator>
         </NavigationContainer>

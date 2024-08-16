@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "category": "Employees",
+    "title": "Total Employees",
+    "value": 5,
+    "date": "16-8-2024",
+    "color": "#748E63",
+    "chartType": "bar",
+    "path": "Employees"
+  },
+  {
+    "id": 2,
+    "category": "Working Hours",
+    "title": "Total Working hours",
+    "value": 16,
+    "date": "16-8-2024",
+    "color": "#EB3678",
+    "chartType": "pie",
+    "path": "TimingData"
+  },
+  {
+    "id": 3,
+    "category": "Attendance",
+    "title": "Total Attendance",
+    "value": 80,
+    "date": "16-8-2024",
+    "color": "#116A7B",
+    "chartType": "bar",
+    "path": ""
+  },
+  {
+    "id": 4,
+    "category": "Projects",
+    "title": "Total Projects",
+    "value": 2,
+    "date": "16-8-2024",
+    "color": "#FB773C",
+    "chartType": "bar",
+    "path": "Projects"
+  }
+]

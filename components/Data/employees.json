@@ -1,0 +1,82 @@
+[
+  {
+    "name": "John Doe",
+    "age": 30,
+    "position": "Office Manager",
+    "attendance": "95%",
+    "email": null,
+    "performance": "Excellent"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 28,
+    "position": "Administrative Assistant",
+    "attendance": "92%",
+    "email": null,
+    "performance": "Good"
+  },
+  {
+    "name": "Michael Johnson",
+    "age": 35,
+    "position": "Receptionist",
+    "attendance": "98%",
+    "email": null,
+    "performance": "Outstanding"
+  },
+  {
+    "name": "Emily Davis",
+    "age": 27,
+    "position": "Office Clerk",
+    "attendance": "90%",
+    "email": null,
+    "performance": "Satisfactory"
+  },
+  {
+    "name": "William Brown",
+    "age": 40,
+    "position": "Facilities Manager",
+    "attendance": "93%",
+    "email": null,
+    "performance": "Good"
+  },
+  {
+    "name": "Olivia Wilson",
+    "age": 33,
+    "position": "HR Coordinator",
+    "attendance": "96%",
+    "email": null,
+    "performance": "Excellent"
+  },
+  {
+    "name": "James Taylor",
+    "age": 45,
+    "position": "IT Support",
+    "attendance": "97%",
+    "email": null,
+    "performance": "Outstanding"
+  },
+  {
+    "name": "Sophia Anderson",
+    "age": 29,
+    "position": "Executive Assistant",
+    "attendance": "91%",
+    "email": null,
+    "performance": "Good"
+  },
+  {
+    "name": "Benjamin Thomas",
+    "age": 38,
+    "position": "Office Coordinator",
+    "attendance": "94%",
+    "email": null,
+    "performance": "Satisfactory"
+  },
+  {
+    "name": "Isabella Jackson",
+    "age": 26,
+    "position": "Marketing Assistant",
+    "attendance": "89%",
+    "email": null,
+    "performance": "Needs Improvement"
+  }
+]

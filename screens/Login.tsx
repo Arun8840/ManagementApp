@@ -17,7 +17,7 @@ const Login = () => {
   const {params}: any = route?.params;
 
   const handleNavigate = () => {
-    navigation?.navigate('dashboard');
+    navigation?.navigate('Dashboard');
   };
   return (
     <View style={tw`flex-1 bg-white`}>
